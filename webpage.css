@@ -1,0 +1,766 @@
+/* THIS LINE IS FOR CURSOR POINTER */
+.cursor1{
+    position:fixed;
+    left:0;
+    border:1px solid;
+    border-radius: 50px;
+    width:50px;
+    height:50px;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+.cursor2
+{
+    position:fixed;
+    left:0;
+    top:0;
+    width:8px;
+    height:8px;
+    background-color: blue;
+    transition:15s;
+/* THIS LINE IS FOR RESPONSIVE */
+}
+@media only screen and (max-width:400px){
+         body{
+             width:500px;
+         }
+}
+#bar1{
+    animation-name: progress;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+@keyframes progress {
+    0%{
+        left:8px;
+        background-color: red;
+    }   
+}
+body
+{
+   background-image:url("background\ green.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+/* THIS LINE IS FOR A NAVIGATION BAR */
+#topbar
+{
+    width:100%;
+    height:50px;
+    background-color:green;
+    position:fixed;
+}
+#topbar img
+{
+    height:50px;
+}
+#topbar ul
+{
+    float:right;
+}
+#topbar ul li
+{
+    display: inline;
+}
+#topbar ul li a
+{
+    text-decoration: none;
+    margin-right:50px;
+    padding-right:10px;
+    color:WHITE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#topbar li a:hover
+{
+    color:black;
+    transition:0.5s;
+    text-decoration:underline;
+
+}
+/* THIS LINE IS FOR A STRUCTURE OF WEBPAGE  */
+#container
+{  
+    height:800px;
+    background-image: url("background\ green.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mark 
+{
+    text-decoration: none;
+    color:black;
+    border-radius: 20px;
+    left:10px;
+}
+/* THIS LINE FOR A PARAGRAPH */
+.paragraph1
+{    
+    margin-right:60px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.paragraph2
+{   
+    margin-top:60px;
+    margin-left:100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+.paragraph3
+{
+    margin-top:60px;
+    margin-left:100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+/* THIS LINE IS FOR A INSERTING A IMAGE */
+#header1
+{
+    width:50%;
+    height:500px;
+    background-image: url("7thyears-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size:650px;
+    float:left;
+}
+#header2
+{
+    width:50%;
+    height:500px;
+    color:whitesmoke;
+    background-repeat:no-repeat;
+    background-size:cover;
+    float:right;
+    animation-name: header2 ;
+    animation-duration: 3s;
+}
+@keyframes header2
+{
+     10%{
+         animation-direction:reverse;
+     }
+}
+
+
+.paragraph4
+{
+    padding-left:35%;
+    font-size: 40px;
+}
+.paragraph5
+{
+    padding-left:35%;
+    font-size: 20px;
+}
+.paragraph6
+{
+    padding-left:10%;
+    font-size:20px;
+}
+.bar1
+{
+    margin-left:40px;
+}
+.bar2
+{
+    margin-left:50px;
+}
+.bar3
+{
+    margin-left:60px;
+} 
+#header3
+{
+     width:50%;
+     height:400px;
+     margin-top:100px;
+     margin-left:680px;
+     font-size:20px;
+}
+/* THIS LINE IS FOR A PAGING */
+#page1
+{
+    width:25%;
+    height:400px;
+    float:left;
+    color:white;
+    margin-top: 50px;
+    font-size:20px;
+}
+.page2
+{
+    width:25%;
+    height:400px;
+    float:right;
+    color:white;
+    margin-top:50px;
+}
+.page3{
+    width:25%;
+    height:400px;
+    float:right;
+    color:white;
+    margin-top:50px;
+}
+.page4
+{
+     width:25%;
+     height:400px;
+     float:right;
+     color:white;
+     margin-top: 50px;
+}
+.para1{
+    margin-left:20px;
+    font-size:20px;
+}
+.para2{
+    margin-left:20px;
+    font-size:20px;
+    margin-top:200px;
+}
+.para3{
+    margin-left:20px;
+    font-size:20px;
+    margin-top:200px;
+}
+.para4{
+    margin-left:20px;
+    font-size:20px;
+    margin-top:200px;
+}
+#paragraph7 
+{
+    width:100%;
+    height:600px;
+}
+#header5
+{
+    width:100%;
+    height:700px;
+    color:white;
+
+}
+#header5 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top:500px;
+}
+.head1
+{
+    margin-left:600px;
+}
+.head2
+{
+    margin-left:450px;
+}
+.container1
+{
+    width:30%;
+    height:450px;
+    float:right;
+    border:2px solid black;
+    margin-left: 30px;
+    color:white;
+}
+.container1:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container2
+{
+    width:30%;
+    height:450px;
+    float:left;
+    border:2px solid black;
+    margin-left:20px;
+    box-shadow: inset;
+    color:white;
+}.container2:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container3
+{
+    width:30%;
+    height:450px;
+    float:left;
+    border:2px solid black;
+    margin-left:50px;
+    color:white;
+}.container3:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container4
+{
+    width:30%;
+    height:450px;
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    border:2px solid black;
+    color:white;
+}.container4:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container5
+{
+    width:30%;
+    height:450px;
+    float:right;
+    margin-top:10px;
+    border:2px solid black;
+    color:white;
+}.container5:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container6
+{
+    width:30%;
+    height:450px;
+    float:left;
+    margin-top:10px;
+    margin-left:50px;
+    border:2px solid black;
+    color:white;
+}
+.container6:hover{
+    color:black;
+    opacity:1.0s;
+    transition: 1s;
+    cursor:pointer;
+    box-shadow:10px 10px 5px;
+}
+.container1 img
+{
+    width:100%;
+    height:250px;
+}
+.container2 img
+{
+    width:100%;
+    height:250px;
+}
+.container3 img
+{
+    width:100%;
+    height:250px;
+}
+.container4 img
+{
+    width:100%;
+    height:250px;
+}
+.container5 img
+{
+    width:100%;
+    height:250px;
+}
+.container6 img
+{
+    width:100%;
+    height:250px;
+}
+#header6
+{
+    width:100%;
+    padding-top:50px;
+    color:white;
+}
+#header7
+{ 
+    width:50%;
+    height:100px;
+    float:right;
+    font-size:20px;
+    background-color:salmon;
+}
+*
+{
+  box-sizing:border-box;
+}
+body{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.timeline
+{
+    position:relative;
+    max-width:600px;
+    margin:100px;
+}
+.timeline::after
+{
+    content:'';
+    position:absolute;
+    width:5px;
+    background-color:rgb(83, 240, 62);
+    top:0;
+    bottom:0;
+    left:100%;
+    margin-left:-2px;
+}
+.container
+{
+    padding:10px 40px;
+    position:relative;
+    background-color: inherit;
+    width:50%;
+}
+.container::after
+{
+    content:'';
+    position:absolute;
+    width:25px;
+    height:25px;
+    right:-17px;
+    background-color:rgb(43, 34, 163);
+    border:4px solid rgb(245, 9, 9);
+    top:15px;
+    border-radius:50%;
+    z-index:1;
+}
+
+.left
+{
+    left:100%;
+}
+.right
+{
+    left:60%;
+}
+.left::before
+{
+    content:" ";
+    height:0;
+    position:absolute;
+    top:22px;
+    width:0;
+    z-index:1;
+    right:30px;
+    border-width:10px 0 10px 10px;
+    border-color:transparent transparent rgb(255, 255, 255);
+}
+.right::before
+{
+    content:" ";
+    height:0;
+    position:absolute;
+    top: 22px;
+    width:0;
+    z-index:1;
+    left:30px;
+    border:medium solid white;
+    border-width:10px 10px 10px 0;
+    border-color:transparent white transparent;
+}
+.right::after
+{
+    left:-16px;
+}
+.content
+{
+   padding:20px 30px;
+   background-color:rgb(31, 161, 4);
+   position:relative;
+   border-radius:6px;
+}
+@media screen and(max-width:600px)
+{
+    .timeline::after{
+        left:31px;
+    }
+
+}
+.container
+{
+    width:100%;
+    padding-left:70px;
+    padding-right:25px;
+}
+.container::before
+{
+    left:60px;
+    border:medium solid rgb(206, 23, 129);
+    border-width:10px 10px 10px 0;
+    border-color:transparent rgb(173, 15, 15) transparent transparent;
+}
+.left::after, .right::after
+{
+    left:15px;
+}
+.right
+{
+    left:0%;
+}
+.content img
+{
+    height:40px;
+}
+#header9
+{
+    width:100%;
+    height:50px;
+    color:white;
+}
+#header9 p
+{
+    padding-left:500px;
+    font-size:30px;
+    color:white;
+}
+.para4
+{
+    padding-left:20px;
+}
+#header10
+{
+    width:100%;
+    height:400px;
+}
+#box1
+{
+    width:25%;
+    height:400px;
+    color:black;
+    margin-left:30px;
+    border:2px solid black;
+    font-size:17px;
+    float:left;
+}
+#box2
+{
+    width:25%;
+    height:400px;
+    color:black;
+    margin-left:10%;
+    border:2px solid black;
+    font-size:17px;
+    float:left;
+}
+#box3
+{
+    width:25%;
+    height:400px;
+    color:black;
+    border:2px solid black;
+    float:right;
+    font-size:17px;
+}
+#box p
+{
+     margin-left:50px;
+}
+#box1 a
+{
+    text-decoration:none;
+    float:left;
+}
+#box2 a
+{
+    text-decoration:none;
+    display:inline;
+}
+#box3 a
+{
+    text-decoration:none;
+    display:inline;
+}
+#header10
+{
+    width: 100%;
+    height:500px;
+}
+#header11
+{
+width:45%;
+height:400px;
+background-image: url("discord-removebg-preview.png");
+background-repeat: no-repeat;
+background-size:400px;
+margin-left:40px;
+float:left;
+}
+#header12
+{
+    width:50%;
+    height:400px;
+    float:right;
+    color:white;
+}
+#header12 button:hover{
+     background-color:grey;
+     opacity: 0.5;
+     transition:0.5s;
+}
+#header13
+{
+width:50%;
+height:400px;
+}
+#para5
+{
+margin-top:50px;
+width:50%;
+height:400px;
+float:left;
+color: white;
+}
+#para5 p
+{
+font-size:50px;
+}
+#para6
+{  
+    margin-top:50px;
+    width:50%;
+    height:400px;
+    font-size:20px;
+    float:right;
+    color:white;
+}
+#para7
+{
+width:30%;
+height:400px;
+}
+
+#para8
+{
+width:30%;
+height:800px;
+border:2px solid black;
+color:black;
+float:right;
+}
+#para8:hover{
+    box-shadow:black  10px 10px 5px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+#para9
+{
+    width:30%;
+    height:800px;
+    border:2px solid black;
+    color:black;
+    float:left;
+}
+#para9:hover{
+    box-shadow: black 10px 10px 5px;
+    transition:0.3s;
+    cursor:pointer;
+}
+#para10
+{
+width:30%;
+height:800px;
+  float:left;
+  border:2px solid black;
+color:black;
+margin-left:50px;
+}
+#para10:hover{
+    box-shadow:black 10px 10px 5px;
+    transition:0.3s;
+    cursor:pointer;
+}
+#para8 img
+{
+   height:405px;
+}
+#para9 img
+{
+height:405px;
+}
+#para10 img
+{
+   height:405px;
+}
+#para11
+{
+    width:100%;
+    height:500px;
+
+}
+#para12
+{
+    width:100%;
+    height:300px;
+    color:white;
+    margin-top:700px;
+}
+#header13
+{
+     width:100%;
+     height:100px;
+     margin-top:50px;
+     color:white;
+}
+#header14
+{
+    width:100%;
+    height:300px;
+    color:white;
+    float:left;
+}
+#image{
+    height: 150px;
+    padding-left:500px;
+}
+#header14 p
+{
+    font-size:30px;
+    margin-top:20px;
+}
+#header13 i
+{
+     text-align:right
+}
+.header15
+{ 
+    size:20px;
+    text-align:right;
+    color:white;
+    float:right;
+}
+.para0:hover{
+    color:black;
+    opacity:0.5;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.header15 i:hover{
+    opacity:2.0;
+    cursor:pointer;
+    transition:1s;
+}
+.text-center p:hover{
+    opacity:2.0;
+    color:black;
+    cursor:pointer;
+    transition:1s;
+}
