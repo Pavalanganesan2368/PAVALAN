@@ -58,6 +58,7 @@ body
 #topbar ul
 {
     float:right;
+    border:none
 }
 #topbar ul li
 {
